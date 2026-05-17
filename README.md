@@ -6,11 +6,7 @@ A full-stack robo-advisor that takes an investor through a risk questionnaire, b
 
 * **Academic Collaboration:** This project was co-developed as part of a university course assignment. 
 * **GitHub Record Clarification:** Because the final full-stack integration and end-to-end repository setup were handled and pushed by my classmate, the repository's commit history does not display my individual account in the contributors list.
-* **My Core Responsibility & Contribution:** I designed and implemented the entire core quantitative financial model and data visualization pipeline for this project. Specifically, my work involved:
-  * **Financial Data Engineering:** Leveraged `yfinance` to fetch, clean, and process multi-year historical asset price data for global indices and funds (e.g., SPY, QQQ, GLD, FXI).
-  * **Statistical Analysis:** Calculated linearized log returns, annualized expected assets returns, and modeled the systemic risk via the asset covariance matrix.
-  * **Portfolio Optimization:** Formulated and solved constrained optimization problems using `scipy.optimize.minimize` (SLSQP method) to identify the Global Minimum Variance Portfolio (GMVP) and generate the Efficient Frontier under both **Long-Only (No Short Sale)** and **Short-Sale Allowed** constraints.
-  * **Data Visualization:** Built the complete interactive risk-return mapping pipeline using `matplotlib` to dynamically plot the Efficient Frontier curve against individual asset performance and optimized portfolio markers.
+* **My Core Responsibility & Contribution:** I designed and implemented the entire core quantitative financial model and data visualization pipeline for this project. Specifically, I processed historical asset data to model portfolio risk, solved constrained optimization problems to determine the Global Minimum Variance Portfolio (GMVP) and Markowitz Efficient Frontier, and generated the final risk-return visualization plots.
 
 **Demo Video:** https://youtu.be/SO_d2Zvie9s
 **Deployed WebApp:** https://roboadvisor-two.vercel.app/
